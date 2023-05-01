@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: ;
+  background-image: linear-gradient(to right, white, #cffcf1);
+  margin: 40px;
+  box-shadow: 1px 4px 16px 0px cadetblue;
+}
+.main-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-header {
+  text-align: center;
+}
+.bg-image {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+  flex-direction: ;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.timer-count {
+  color: aqua;
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.play-pause-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+.options-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+}
+.start-pause-container {
+  display: flex;
+  padding: 20px;
+}
+
+.start-pause-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.start-pause-image {
+  height: 35px;
+  width: 35px;
+}
+.button-text {
+  font-size: 18px;
+  font-family: Roboto;
+}
+.reset-button {
+  background-color: transparent;
+}
+.minus-plus-button {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 35px;
+  background-color: transparent;
+  border: none;
+  font-family: Roboto;
+}
+.time-setting {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: rgb(86, 247, 174);
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.time-setting-container {
+  display: flex;
+}
